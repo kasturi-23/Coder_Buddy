@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+  <!-- Add Icon -->
+  <symbol id="icon-add" viewBox="0 0 24 24">
+    <path d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z" fill="currentColor"/>
+  </symbol>
+
+  <!-- Edit Icon (pencil) -->
+  <symbol id="icon-edit" viewBox="0 0 24 24">
+    <path d="M3 17.25V21H6.75L17.81 9.94L14.06 6.19L3 17.25Z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <path d="M14.06 6.19L15.19 7.31" fill="none" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+
+  <!-- Delete Icon (trash can) -->
+  <symbol id="icon-delete" viewBox="0 0 24 24">
+    <path d="M6 19C6 20.1 6.9 21 8 21H16C17.1 21 18 20.1 18 19V7H6V19Z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <path d="M19 4H15.5L14.79 3H9.21L8.5 4H5V6H19V4Z" fill="none" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+
+  <!-- Drag Icon (handle) -->
+  <symbol id="icon-drag" viewBox="0 0 24 24">
+    <path d="M10 9H14V11H10V9Z" fill="currentColor"/>
+    <path d="M10 13H14V15H10V13Z" fill="currentColor"/>
+    <path d="M10 17H14V19H10V17Z" fill="currentColor"/>
+  </symbol>
+
+  <!-- Theme Icon (sun/moon toggle) -->
+  <symbol id="icon-theme" viewBox="0 0 24 24">
+    <!-- Sun rays -->
+    <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <line x1="12" y1="2" x2="12" y2="4"/>
+      <line x1="12" y1="20" x2="12" y2="22"/>
+      <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/>
+      <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/>
+      <line x1="2" y1="12" x2="4" y2="12"/>
+      <line x1="20" y1="12" x2="22" y2="12"/>
+      <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"/>
+      <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"/>
+    </g>
+    <!-- Sun core -->
+    <circle cx="12" cy="12" r="5" fill="none" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+</svg>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorfulTodo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="app-header">
+        <h1>ColorfulTodo</h1>
+        <button id="theme-toggle" aria-label="Toggle theme">
+            <svg class="icon icon-theme" aria-hidden="true">
+                <use href="assets/icons.svg#icon-theme"></use>
+            </svg>
+        </button>
+    </header>
+
+    <section class="input-section">
+        <input id="new-task" type="text" placeholder="What needs to be done?" autocomplete="off" />
+        <button id="add-task" aria-label="Add task">
+            <svg class="icon icon-add" aria-hidden="true">
+                <use href="assets/icons.svg#icon-add"></use>
+            </svg>
+        </button>
+    </section>
+
+    <ul id="todo-list" class="todo-list"></ul>
+
+    <nav class="filter-bar">
+        <button id="filter-all" data-filter="all">All</button>
+        <button id="filter-active" data-filter="active">Active</button>
+        <button id="filter-completed" data-filter="completed">Completed</button>
+    </nav>
+
+    <footer class="shortcut-hint">
+        <small>Press <kbd>Enter</kbd> to add a task, <kbd>Esc</kbd> to clear input, <kbd>Ctrl+Shift+L</kbd> to toggle light/dark mode.</small>
+    </footer>
+</body>
+</html>
